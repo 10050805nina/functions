@@ -1,11 +1,12 @@
 """Data Abstractions"""
 
+from collections import UserList
+from turtle import ScrolledCanvas
 from utils import mean
 
 #############################
 # Phase 1: Data Abstraction #
 #############################
-
 
 # Reviews
 
@@ -105,6 +106,7 @@ def restaurant_num_scores(restaurant):
     """Return the number of scores for restaurant."""
     # BEGIN Question 2
     return len(restaurant_scores(restaurant))
+
     # END Question 2
 
 def restaurant_mean_score(restaurant):
